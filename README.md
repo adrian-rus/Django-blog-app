@@ -26,3 +26,10 @@ Step 3.
 - Created a view 'post_detail' that uses the post unique id to render the post in 'postdetail.html'
 - Linked the 'Read More' and 'Back To Blog' buttons
 - Truncated the posts to 30 words so the user clicks on the 'Read More' button
+
+Step 4.
+- Adding a counter to record how often a post is seen
+- Adding a tag so posts can be categorized
+- Updating the Post model with the views and tag fields
+- Integrate comments using Disqus API
+
