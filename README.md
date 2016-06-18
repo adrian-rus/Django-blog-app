@@ -18,3 +18,11 @@ Step 2. Django Blog challenge continued - 18/06/16
 - Added static content in the static folder
 - Loaded staticfiles in the base.html template
 - Styled the base.html template using css and Bootstrap
+
+Step 3.
+- Styled the blogposts.html page
+- Created a templates folder inside the blogApp and moved the blogposts.html file inside it
+- Created another template postdetail.html to open the details of each post
+- Created a view 'post_detail' that uses the post unique id to render the post in 'postdetail.html'
+- Linked the 'Read More' and 'Back To Blog' buttons
+- Truncated the posts to 30 words so the user clicks on the 'Read More' button
