@@ -33,3 +33,7 @@ Step 4.
 - Updating the Post model with the views and tag fields
 - Integrate comments using Disqus API
 
+Step 5.
+- Adding an image to the posts by installing pillow in Python and then adding an image field in the Post model
+- Creating a form to add more blog posts and images for the posts
+- Installing django-forms-bootstrap to make visually pleasing forms

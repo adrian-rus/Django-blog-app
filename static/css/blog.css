@@ -73,6 +73,8 @@ a, a:hover{
 
 .thumbnail{
     margin-bottom: 8px;
+    width:150px;
+    height:150px;
 }
 
 .img-container{

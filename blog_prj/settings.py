@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'blogApp',
     'django.contrib.sites',
-    'disqus'
+    'disqus',
+    'django_forms_bootstrap',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -129,3 +130,6 @@ STATICFILES_DIRS = (
 )
 
 DISQUS_WEBSITE_SHORTNAME = 'stack'
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'
